@@ -1,37 +1,28 @@
 ﻿using Xunit;
-using GildedRose.Console;
+using GildedRose;
 using System.Collections.Generic;
 
 namespace GildedRose.Tests
 {
     public class TestAssemblyTests
     {
-        Program program;
-        IList<Item> Items;
-        public TestAssemblyTests()
-        {
-            program = new Program();
-            program.UpdateQuality();
-            Items = program.GetItems();
-        }
 
-        /*[Fact]
-        public void TestTheTruth()
-        {
-            program.UpdateQuality();
-            Items = program.GetItems();
-            Assert.Equal(0, Items[3].SellIn);
-            Assert.Equal(80, Items[3].Quality);
-            Assert.Equal(14, Items[4].SellIn);
-            Assert.Equal(21, Items[4].Quality);
-        }*/
+        Program program = new Program();
 
         [Fact]
         public void SulfurasNeverDecreaseInQualityOrSellIn_expect_Q80_S0()
         {
+            program.AddItem(new Sulfuras
+            {
+                Name = "Sulfuras, Hand of Ragnaros",
+                SellIn = 0,
+                Quality = 80
+            });
+            program.UpdateQuality();
+            var localItems = program.GetItems();
             //"Sulfuras", being a legendary item, never has to be sold or decreases in Quality
-            Assert.Equal(0, Items[3].SellIn);
-            Assert.Equal(80, Items[3].Quality);
+            Assert.Equal(0, localItems[localItems.Count - 1].SellIn);
+            Assert.Equal(80, localItems[localItems.Count - 1].Quality);
         }
 
         [Fact]
@@ -69,8 +60,16 @@ namespace GildedRose.Tests
         [Fact]
         public void BrieIncreaseQuality_expected_Q1_S1()
         {
-            Assert.Equal(1, Items[1].SellIn);
-            Assert.Equal(1, Items[1].Quality);
+            program.AddItem(new AgedBrie
+            {
+                Name = "Aged Brie",
+                SellIn = 2,
+                Quality = 0
+            });
+            program.UpdateQuality();
+            var localItems = program.GetItems();
+            Assert.Equal(1, localItems[localItems.Count - 1].SellIn);
+            Assert.Equal(1, localItems[localItems.Count - 1].Quality);
         }
 
         [Fact]
@@ -90,8 +89,16 @@ namespace GildedRose.Tests
         [Fact]
         public void DexterityVest_DecreaseQuality_expected_Q19_S9()
         {
-            Assert.Equal(9, Items[0].SellIn);
-            Assert.Equal(19, Items[0].Quality);
+            program.AddItem(new Item
+            {
+                Name = "+5 Dexterity Vest",
+                SellIn = 10,
+                Quality = 20,
+            });
+            program.UpdateQuality();
+            var localItems = program.GetItems();
+            Assert.Equal(9, localItems[localItems.Count - 1].SellIn);
+            Assert.Equal(19, localItems[localItems.Count - 1].Quality);
         }
 
         [Fact]
