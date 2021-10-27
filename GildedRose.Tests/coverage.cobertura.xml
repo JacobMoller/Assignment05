@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9804999999999999" branch-rate="1" version="1.9" timestamp="1634640061" lines-covered="101" lines-valid="103" branches-covered="30" branches-valid="30">
+  <sources>
+    <source>/</source>
+  </sources>
+  <packages>
+    <package name="GildedRose.Console" line-rate="0.9804999999999999" branch-rate="1" complexity="38">
+      <classes>
+        <class name="GildedRose.Console.Program" filename="Users/jacobm/Assignment05/GildedRose.Console/Program.cs" line-rate="0.9375" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="UpdateQuality" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="33" hits="27" branch="False" />
+                <line number="34" hits="27" branch="False" />
+                <line number="35" hits="402" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="174" branch="False" />
+                <line number="38" hits="174" branch="False" />
+                <line number="39" hits="174" branch="False" />
+                <line number="40" hits="27" branch="False" />
+              </lines>
+            </method>
+            <method name="GetItems" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="54" branch="False" />
+                <line number="43" hits="54" branch="False" />
+                <line number="44" hits="54" branch="False" />
+              </lines>
+            </method>
+            <method name="AddItem" signature="(GildedRose.Console.Item)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="12" branch="False" />
+                <line number="48" hits="12" branch="False" />
+                <line number="49" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="15" branch="False" />
+                <line number="11" hits="15" branch="False" />
+                <line number="12" hits="15" branch="False" />
+                <line number="13" hits="15" branch="False" />
+                <line number="14" hits="15" branch="False" />
+                <line number="15" hits="15" branch="False" />
+                <line number="16" hits="15" branch="False" />
+                <line number="17" hits="15" branch="False" />
+                <line number="18" hits="15" branch="False" />
+                <line number="19" hits="15" branch="False" />
+                <line number="20" hits="15" branch="False" />
+                <line number="21" hits="15" branch="False" />
+                <line number="22" hits="15" branch="False" />
+                <line number="23" hits="15" branch="False" />
+                <line number="24" hits="15" branch="False" />
+                <line number="25" hits="15" branch="False" />
+                <line number="26" hits="15" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="33" hits="27" branch="False" />
+            <line number="34" hits="27" branch="False" />
+            <line number="35" hits="402" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="36" hits="174" branch="False" />
+            <line number="38" hits="174" branch="False" />
+            <line number="39" hits="174" branch="False" />
+            <line number="40" hits="27" branch="False" />
+            <line number="42" hits="54" branch="False" />
+            <line number="43" hits="54" branch="False" />
+            <line number="44" hits="54" branch="False" />
+            <line number="47" hits="12" branch="False" />
+            <line number="48" hits="12" branch="False" />
+            <line number="49" hits="12" branch="False" />
+            <line number="10" hits="15" branch="False" />
+            <line number="11" hits="15" branch="False" />
+            <line number="12" hits="15" branch="False" />
+            <line number="13" hits="15" branch="False" />
+            <line number="14" hits="15" branch="False" />
+            <line number="15" hits="15" branch="False" />
+            <line number="16" hits="15" branch="False" />
+            <line number="17" hits="15" branch="False" />
+            <line number="18" hits="15" branch="False" />
+            <line number="19" hits="15" branch="False" />
+            <line number="20" hits="15" branch="False" />
+            <line number="21" hits="15" branch="False" />
+            <line number="22" hits="15" branch="False" />
+            <line number="23" hits="15" branch="False" />
+            <line number="24" hits="15" branch="False" />
+            <line number="25" hits="15" branch="False" />
+            <line number="26" hits="15" branch="False" />
+          </lines>
+        </class>
+        <class name="GildedRose.Console.Item" filename="Users/jacobm/Assignment05/GildedRose.Console/Program.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="102" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SellIn" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="620" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Quality" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="522" branch="False" />
+              </lines>
+            </method>
+            <method name="Update" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="62" hits="56" branch="False" />
+                <line number="63" hits="56" branch="False" />
+                <line number="64" hits="56" branch="False" />
+                <line number="65" hits="56" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="100%" />
+                    <condition number="45" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="55" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="77" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="54" branch="False" />
+                <line number="71" hits="54" branch="False" />
+                <line number="72" hits="54" branch="False" />
+                <line number="73" hits="56" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="55" hits="102" branch="False" />
+            <line number="57" hits="620" branch="False" />
+            <line number="59" hits="522" branch="False" />
+            <line number="62" hits="56" branch="False" />
+            <line number="63" hits="56" branch="False" />
+            <line number="64" hits="56" branch="False" />
+            <line number="65" hits="56" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="29" type="jump" coverage="100%" />
+                <condition number="45" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="55" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="77" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="70" hits="54" branch="False" />
+            <line number="71" hits="54" branch="False" />
+            <line number="72" hits="54" branch="False" />
+            <line number="73" hits="56" branch="False" />
+          </lines>
+        </class>
+        <class name="GildedRose.Console.AgedBrie" filename="Users/jacobm/Assignment05/GildedRose.Console/Program.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Update" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="80" hits="29" branch="False" />
+                <line number="81" hits="29" branch="False" />
+                <line number="82" hits="29" branch="False" />
+                <line number="83" hits="29" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="100%" />
+                    <condition number="46" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="79" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="88" hits="27" branch="False" />
+                <line number="89" hits="27" branch="False" />
+                <line number="90" hits="27" branch="False" />
+                <line number="91" hits="29" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="80" hits="29" branch="False" />
+            <line number="81" hits="29" branch="False" />
+            <line number="82" hits="29" branch="False" />
+            <line number="83" hits="29" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="29" type="jump" coverage="100%" />
+                <condition number="46" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="79" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="88" hits="27" branch="False" />
+            <line number="89" hits="27" branch="False" />
+            <line number="90" hits="27" branch="False" />
+            <line number="91" hits="29" branch="False" />
+          </lines>
+        </class>
+        <class name="GildedRose.Console.Backstage" filename="Users/jacobm/Assignment05/GildedRose.Console/Program.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="Update" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="97" hits="33" branch="False" />
+                <line number="98" hits="33" branch="False" />
+                <line number="100" hits="33" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="32" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="57" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="105" hits="2" branch="False" />
+                <line number="106" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="72" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="2" branch="False" />
+                <line number="115" hits="30" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="121" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="116" hits="2" branch="False" />
+                <line number="117" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="138" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="2" branch="False" />
+                <line number="127" hits="28" branch="False" />
+                <line number="128" hits="28" branch="False" />
+                <line number="129" hits="28" branch="False" />
+                <line number="130" hits="33" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="97" hits="33" branch="False" />
+            <line number="98" hits="33" branch="False" />
+            <line number="100" hits="33" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="29" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="32" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="57" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="105" hits="2" branch="False" />
+            <line number="106" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="72" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="2" branch="False" />
+            <line number="115" hits="30" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="121" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="116" hits="2" branch="False" />
+            <line number="117" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="138" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="2" branch="False" />
+            <line number="127" hits="28" branch="False" />
+            <line number="128" hits="28" branch="False" />
+            <line number="129" hits="28" branch="False" />
+            <line number="130" hits="33" branch="False" />
+          </lines>
+        </class>
+        <class name="GildedRose.Console.Sulfuras" filename="Users/jacobm/Assignment05/GildedRose.Console/Program.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Update" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="136" hits="27" branch="False" />
+                <line number="138" hits="27" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="136" hits="27" branch="False" />
+            <line number="138" hits="27" branch="False" />
+          </lines>
+        </class>
+        <class name="GildedRose.Console.Conjured" filename="Users/jacobm/Assignment05/GildedRose.Console/Program.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Update" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="144" hits="29" branch="False" />
+                <line number="146" hits="29" branch="False" />
+                <line number="147" hits="29" branch="False" />
+                <line number="148" hits="29" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="100%" />
+                    <condition number="45" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="149" hits="1" branch="False" />
+                <line number="150" hits="1" branch="False" />
+                <line number="151" hits="1" branch="False" />
+                <line number="152" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="77" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="153" hits="28" branch="False" />
+                <line number="154" hits="28" branch="False" />
+                <line number="155" hits="28" branch="False" />
+                <line number="156" hits="29" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="144" hits="29" branch="False" />
+            <line number="146" hits="29" branch="False" />
+            <line number="147" hits="29" branch="False" />
+            <line number="148" hits="29" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="29" type="jump" coverage="100%" />
+                <condition number="45" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="149" hits="1" branch="False" />
+            <line number="150" hits="1" branch="False" />
+            <line number="151" hits="1" branch="False" />
+            <line number="152" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="77" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="153" hits="28" branch="False" />
+            <line number="154" hits="28" branch="False" />
+            <line number="155" hits="28" branch="False" />
+            <line number="156" hits="29" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
